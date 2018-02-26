@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS3 Filters demo by itveda.com</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<style type="text/css">
+		.blur{
+			filter: blur(15px);
+			transition: 1s all;
+		}
+		.blur:hover{
+			filter:none;
+			transition:1s all;
+		}
+
+		.bright{
+			filter: brightness(40);
+			transition:1s all;
+			filter
+		}
+		.bright:hover{
+			filter:none;
+			transition: 1s all;
+		}
+
+		.contrast{
+			filter:contrast(40%);
+			transition: 1s all;
+		}
+		.contrast:hover{
+			filter:none;
+			transition: 1s all;
+		}
+	</style>
+
+</head>
+<body>
+	<div class = "container">
+		<div class = "row">
+			<h1 align = "center">CSS3 Transitions demo by itveda.com</h1>
+		</div>
+		<hr>
+		<div class = "row">
+			<div class = "col-md-6">
+				<hr/>
+				<h2 align="center">Blur Filter</h2>
+				<img class = "blur img-responsive" src = "https://github.com/vedLinuxian/images/raw/master/2.jpg">
+
+			</div>
+
+			<div class = "col-md-6">
+				<hr>
+				<h2 align = "center">Brightness Filter</h2>
+				<img class = "bright img-responsive" src="https://github.com/vedLinuxian/images/raw/master/3.jpg">
+			</div>
+
+			<hr>
+
+		</div>
+
+		<div class = "row">
+			<div class = "col-md-6">
+				<hr>
+				<h2 align = "center">Contras Filter</h2>
+				<img class = "contrast img-responsive" src = "https://github.com/vedLinuxian/images/raw/master/4.jpg">
+			</div>
+
+			<hr/>
+		</div>
+	</div>
+
+</body>
+</html>
